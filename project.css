@@ -1,0 +1,46 @@
+.col-12 {
+	height: 50px;
+	width: 1000px;
+	background-color: #ccc
+	margin-bottom: 10px;
+	border: 1px solid black;
+}
+
+.col-lg-1 {
+	height: 50px;
+	background-color: #ccc;
+	margin-bottom: 10px;
+	border: 1px solid black;
+}
+
+.col-lg-8 {
+	height: 50px;
+	background-color: #000;
+}
+
+.col-lg-4 {
+	height: 50px;
+	background-color: red;
+	border: 1px solid black;
+}
+
+.box {
+	height: 50px;
+	background-color: blue;
+}
+
+.col-lg-6 {
+	height: 50px;
+	border: 1px solid black;
+}
+
+.yacheyka {
+	height: 50px;
+	border: 1px solid black;
+	background-color: #ccc;
+}
+
+img {
+	height: 276px;
+	width: 550px;
+}

@@ -1,0 +1,179 @@
+main {
+	background-color: #000;
+}
+
+.btn {
+	position: relative;
+	top: 45px;
+	z-index: 99;
+}
+
+.phone-link {
+	position: absolute;
+	padding-top: 53px;
+	display: inline-block;
+	color: gray;
+	font-weight: 900;
+	font-size: 2rem;
+	z-index: 99;
+}
+
+.logotype {
+	position: absolute;
+	margin-top: 28px;
+	z-index: 99;
+}
+
+@media (min-width: 1400px) {
+	.slider {
+		margin-top: 50px;
+		margin-left: 50px;
+		width: 1190px;
+	}
+	.btn {
+		right: 205px;
+	}
+	
+}
+
+@media (max-width: 1400px) {
+	.slider {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	.btn{
+		right: 60px;
+	}
+}
+
+
+
+@media (max-width: 1200px) {
+	.slider {
+		padding-top: 100px;
+		width: 855px;
+		padding-left: 0px;
+		padding-right: 3px;
+	}
+
+	.btn {
+		right: 69px;
+	}
+}
+
+@media (max-width: 991px) {
+	.slider { 
+		position: relative;
+		z-index: 10;
+		right: 100px;
+		width: 805px;
+		bottom: 67px;
+	}
+
+	.btn {
+		right: 90px;
+	}
+}
+
+
+
+@media (max-width: 767px) {
+	.slider {
+		right: 142px;
+		width: 710px;
+	}
+	.btn {
+		left: 20px;
+	}
+}
+
+@media (max-width: 660px) {
+	.slider {
+		width: 1000px;
+		right: 236px;
+	}
+}
+
+@media (max-width: 576px) {
+	.slider {
+		right: 225px;
+	}
+}
+
+@media (max-width: 536px) {
+	.slider {
+
+		right: 260px;
+
+	}
+
+}
+
+.arrow {
+	top: 50%;
+	transform: translateY(-50%);
+	position: absolute;
+	z-index: 99;
+	width: 2rem;
+	height: 5rem;
+	border: none;
+	background-size: 100%;
+}
+
+.prev1 {
+	position: relative;
+	opacity: 25%;
+	left: 58px;
+	top: 323px;
+	background: url(../img/left-arrow.png) center no-repeat;
+
+}
+
+.prev1:hover {
+	opacity: 100%;
+}
+
+.next1 {
+	position: relative;
+	opacity: 25%;
+	left: 727px;
+	bottom: 278px;
+	background: url(../img/right-arrow.png) center no-repeat;
+	
+}
+
+.next1:hover {
+	opacity: 100%;
+}
+
+.prev2 {
+	position: relative;
+	opacity: 25%;
+	left: 58px;
+	top: 248px;
+	background: url(../img/left-arrow.png) center no-repeat;
+
+}
+
+.prev2:hover {
+	opacity: 100%;
+}
+
+.next2 {
+	position: relative;
+	opacity: 25%;
+	left: 610px;
+	bottom: 189px;
+	background: url(../img/right-arrow.png) center no-repeat;
+	
+}
+
+.next2:hover {
+	opacity: 100%;
+}
+
+.col-sm-12 {
+	position: relative;
+	right: 100px;
+}
